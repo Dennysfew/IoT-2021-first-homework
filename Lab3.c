@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
+
 
 
 
@@ -19,7 +19,7 @@ void main()
 
     while(str[i]!='\0')
     {
-        if((str[i]>='A' && str[i]<='Z') || (str[i]>='a' && str[i]<='z'))
+        if((str[i]>=65 && str[i]<=90) || (str[i]>=97 && str[i]<=122))
         {
             alpabet++;
         }
